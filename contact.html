@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Food Website</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff3e0; /* Light orange background */
+        color: #333;
+      }
+
+      header {
+        background-color: #ff8c42; /* Orange header */
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+
+      header p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+      }
+
+      main {
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      /* Form Styles */
+      form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+
+      button {
+        background-color: #ff8c42; /* Orange button */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #e67e22; /* Darker orange on hover */
+      }
+
+      /* Footer Styles */
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #ff8c42; /* Orange footer */
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <p>
+        We'd love to hear from you! Reach out for any questions, feedback, or
+        collaborations.
+      </p>
+    </header>
+
+    <main>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Your Food Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

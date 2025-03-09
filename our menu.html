@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Card</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f8f9fa;
+      }
+
+      /* Navbar Styles */
+      .navbar {
+        background-color: #ff6600;
+        padding: 10px 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .navbar ul b {
+        color: white;
+        font-size: 32px;
+        font-family: cursive;
+        margin-right: auto; /* Pushes the logo to the left */
+      }
+
+      .navbar ul li {
+        margin-left: 20px;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .navbar a:hover {
+        background-color: #e65c00;
+      }
+
+      /* Heading Styles */
+      .ch {
+        text-align: center;
+        padding: 20px;
+        color: #9b4003;
+        font-size: 36px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 20px;
+      }
+
+      /* Menu Container Styles */
+      .menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      /* Menu Item Styles */
+      .menu-item {
+        width: 250px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        background-color: #fff;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .menu-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      .menu-item img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+
+      .menu-item .text {
+        padding: 15px;
+        text-align: center;
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #fff3e0;
+      }
+
+      /* Footer Styles */
+      .footer {
+        background-color: #ff8c42;
+        color: #fff;
+        padding: 15px 20px;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 14px;
+      }
+
+      .footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul>
+        <b>Our Menu</b>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="our menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Heading -->
+    <div class="ch">
+      <h1>Choose Your Dish</h1>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="menu-container">
+      <div class="menu-item">
+        <a href="b menu.jpg">
+          <img src="b menu.jpg" alt="Menu Item 1" />
+          <div class="text">Burger</div>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="san.jpg">
+          <img src="san.jpg" alt="Menu Item 2" />
+          <div class="text">Sandwich</div>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="cc.jpg">
+          <img src="cc.jpg" alt="Menu Item 3" />
+          <div class="text">Noodles</div>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="sp menu.jpg">
+          <img src="sp menu.jpg" alt="Menu Item 4" />
+          <div class="text">Spaghetti</div>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="c manu.jpg">
+          <img src="c manu.jpg" alt="Menu Item 5" />
+          <div class="text">Coffee</div>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a href="n manu.jpg">
+          <img src="n manu.jpg" alt="Menu Item 6" />
+          <div class="text">Chicken Curry</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Delicious Bites. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
